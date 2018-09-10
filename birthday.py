@@ -39,7 +39,8 @@ day = str(input("And the day? "))
 
 if month == "october" or "October" and day == "31" :
     print("You were born on Halloween!")
-
+elif year > "2000" :
+    print("You are a baby of the two thousands!")
 else:
     print("" + name + ", hope your next birthday is the best birthday ever!")
 

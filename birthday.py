@@ -37,6 +37,18 @@ month = str(input("Hi " + name + ", what was the name of the month you were born
 year = str(input("And what year were you born in, " + name + "? "))
 day = str(input("And the day? "))
 
+a = january
+b = febuary
+c = march
+d = april
+e = may
+f = june 
+
+
+
+
+
+
 if month == "october" or "October" and day == "31" :
     print("You were born on Halloween!")
 elif year > "2000" :

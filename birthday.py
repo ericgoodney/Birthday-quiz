@@ -36,3 +36,18 @@ name = str(input("Hello, what is your name? "))
 month = str(input("Hi " + name + ", what was the name of the month you were born in? "))
 year = str(input("And what year were you born in, " + name + "? "))
 day = str(input("And the day? "))
+
+if month == "october" or "October" and day == "31" :
+    print("You were born on Halloween!")
+else:
+    print("" + name + ", you are a winter baby of the nineties")
+
+
+
+
+
+
+
+
+
+

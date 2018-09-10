@@ -39,8 +39,9 @@ day = str(input("And the day? "))
 
 if month == "october" or "October" and day == "31" :
     print("You were born on Halloween!")
+
 else:
-    print("" + name + ", you are a winter baby of the nineties")
+    print("" + name + ", hope your next birthday is the best birthday ever!")
 
 
 

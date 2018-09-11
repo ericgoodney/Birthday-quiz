@@ -38,17 +38,17 @@ year = str(input("And what year were you born in, " + name + "? "))
 day = str(input("And the day? "))
 
 a = ["january" , "January"]
-b = ["febuary" , "febuary
-c = ["march" ,
-d = ["april" ,
-e = ["may" ,
-f = ["june"  ,
-g = ["july" ,
-h = ["august" ,
-i = ["september" ,
-j = ["october" ,
-k = ["november" ,
-l = ["december" ,
+b = ["february" , "February"]
+c = ["march" , "March"]
+d = ["april" , "April"]
+e = ["may" , "May"]
+f = ["june"  , "June"]
+g = ["july" , "July"]
+h = ["august" , "August"]
+i = ["september" , "September"]
+j = ["october" , "October"]
+k = ["november" , "November"]
+l = ["december" , "December"]
 
 
 

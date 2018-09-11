@@ -59,12 +59,17 @@ if month in ["october" , "October"] and day == "31" :
     print("You were born on Halloween!")
     
 elif year in ["2000" , "2001" , "2002" , "2003" , "2004" , "2005" , "2006" , "2007" , "2008" , "2009" , "2010" , "2011" , "2012" , "2013" , "2014" , "2015" , "2016" , "2017" , "2018", "2019"] and month in [ "january" , "January" , "february" , "February" , "march" , "March" , "april" , "April" , "may" , "May" , "june" , "June", "july" , "July" , "august" , "August" , "september" , "September" , "october" , "October" , "november" , "November" , "december" , "December"] : 
+    print("You are a spring baby of the two thousands!")
+elif year in ["2000" , "2001" , "2002" , "2003" , "2004" , "2005" , "2006" , "2007" , "2008" , "2009" , "2010" , "2011" , "2012" , "2013" , "2014" , "2015" , "2016" , "2017" , "2018", "2019"] and month in ["june" , "June", "july" , "July" , "august" , "August" , "september" , "September"] :
     print("You are a summer baby of the two thousands!")
-
+elif year in ["2000" , "2001" , "2002" , "2003" , "2004" , "2005" , "2006" , "2007" , "2008" , "2009" , "2010" , "2011" , "2012" , "2013" , "2014" , "2015" , "2016" , "2017" , "2018", "2019"] and month in ["october" , "October" , "november" , "November" , "december" , "December"] : 
+    print("You are a fall baby of the two thousands!")
+elif year in ["2000" , "2001" , "2002" , "2003" , "2004" , "2005" , "2006" , "2007" , "2008" , "2009" , "2010" , "2011" , "2012" , "2013" , "2014" , "2015" , "2016" , "2017" , "2018", "2019"] and month in 
+    print("You are a winter baby of the two thousands!")
 else:
     print("" + name + ", hope your next birthday is the best birthday ever!")
 
-
+"usefull thing: ["2000" , "2001" , "2002" , "2003" , "2004" , "2005" , "2006" , "2007" , "2008" , "2009" , "2010" , "2011" , "2012" , "2013" , "2014" , "2015" , "2016" , "2017" , "2018", "2019"] and month in [ "january" , "January" , "february" , "February" , "march" , "March" , "april" , "April" , "may" , "May" , "june" , "June", "july" , "July" , "august" , "August" , "september" , "September" , "october" , "October" , "november" , "November" , "december" , "December"]"
 
 
 

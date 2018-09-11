@@ -37,18 +37,18 @@ month = str(input("Hi " + name + ", what was the name of the month you were born
 year = str(input("And what year were you born in, " + name + "? "))
 day = str(input("And the day? "))
 
-a = "january" 
-b = "febuary"
-c = "march"
-d = "april"
-e = "may"
-f = "june" 
-g = "july"
-h = "august"
-i = "september"
-j = "october"
-k = "november" 
-l = "december"
+a = ["january" , "January"]
+b = ["febuary" , "febuary
+c = ["march" ,
+d = ["april" ,
+e = ["may" ,
+f = ["june"  ,
+g = ["july" ,
+h = ["august" ,
+i = ["september" ,
+j = ["october" ,
+k = ["november" ,
+l = ["december" ,
 
 
 

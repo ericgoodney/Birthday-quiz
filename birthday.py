@@ -67,9 +67,25 @@ elif year in ["2000" , "2001" , "2002" , "2003" , "2004" , "2005" , "2006" , "20
 elif year in ["2000" , "2001" , "2002" , "2003" , "2004" , "2005" , "2006" , "2007" , "2008" , "2009" , "2010" , "2011" , "2012" , "2013" , "2014" , "2015" , "2016" , "2017" , "2018", "2019"] and month in [ "january" , "January" , "february" , "February" , "march" , "March"] :
     print("You are a winter baby of the two thousands!")
     
-elif year in ["1990", "1991" , "1993" , "1994" , "1995" , "1996" , "1997" , "1998" , "1999"] : 
-    print("You are a baby of the nineties")
+elif year in ["1990", "1991" , "1993" , "1994" , "1995" , "1996" , "1997" , "1998" , "1999"] and month in ["march" , "March" , "april" , "April" , "may" , "May" ] :
+    print("You are a spring baby of the nineties")
+elif year in ["1990", "1991" , "1993" , "1994" , "1995" , "1996" , "1997" , "1998" , "1999"] and month in ["june" , "June", "july" , "July" , "august" , "August" , "september" , "September"] :
+    print("You are a summer baby of the nineties")
+elif year in ["1990", "1991" , "1993" , "1994" , "1995" , "1996" , "1997" , "1998" , "1999"] and month in ["october" , "October" , "november" , "November" , "december" , "December"] :
+    print("You are a fall baby of the nienties")
+elif year in ["1990", "1991" , "1993" , "1994" , "1995" , "1996" , "1997" , "1998" , "1999"] and month in [ "january" , "January" , "february" , "February" , "march" , "March"] :
+    print("you are a winter baby of the nienties")
+    
+elif year in ["1980" , "1981", "1982" , "1983" , "1984" , "1985" , "1986" , "1987" , "1988" , "1989"] 
+    print("You are a spring 
+elif year in ["1980" , "1981", "1982" , "1983" , "1984" , "1985" , "1986" , "1987" , "1988" , "1989"]
+    print
+elif year in ["1980" , "1981", "1982" , "1983" , "1984" , "1985" , "1986" , "1987" , "1988" , "1989"]
+
 else:
+    
+    
+    
     print("" + name + ", hope your next birthday is the best birthday ever!")
 
 

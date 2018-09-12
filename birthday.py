@@ -76,12 +76,14 @@ elif year in ["1990", "1991" , "1993" , "1994" , "1995" , "1996" , "1997" , "199
 elif year in ["1990", "1991" , "1993" , "1994" , "1995" , "1996" , "1997" , "1998" , "1999"] and month in [ "january" , "January" , "february" , "February" , "march" , "March"] :
     print("you are a winter baby of the nienties")
     
-elif year in ["1980" , "1981", "1982" , "1983" , "1984" , "1985" , "1986" , "1987" , "1988" , "1989"] 
-    print("You are a spring 
-elif year in ["1980" , "1981", "1982" , "1983" , "1984" , "1985" , "1986" , "1987" , "1988" , "1989"]
-    print
-elif year in ["1980" , "1981", "1982" , "1983" , "1984" , "1985" , "1986" , "1987" , "1988" , "1989"]
-
+elif year in ["1980" , "1981", "1982" , "1983" , "1984" , "1985" , "1986" , "1987" , "1988" , "1989"] and month in ["march" , "March" , "april" , "April" , "may" , "May" ] :
+    print("You are a spring baby of the eighties")
+elif year in ["1980" , "1981", "1982" , "1983" , "1984" , "1985" , "1986" , "1987" , "1988" , "1989"] and month in ["june" , "June", "july" , "July" , "august" , "August" , "september" , "September"] :
+    print("You are a summer baby of the eighties")
+elif year in ["1980" , "1981", "1982" , "1983" , "1984" , "1985" , "1986" , "1987" , "1988" , "1989"] and month in ["october" , "October" , "november" , "November" , "december" , "December"] :
+    print("You are a fall baby of the eighties")
+elif year in ["1980" , "1981", "1982" , "1983" , "1984" , "1985" , "1986" , "1987" , "1988" , "1989"] and month in [ "january" , "January" , "february" , "February" , "march" , "March"] :
+    print("You are a winter baby of the eighties")
 else:
     
     

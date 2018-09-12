@@ -71,16 +71,15 @@ elif year in ["1980" , "1981", "1982" , "1983" , "1984" , "1985" , "1986" , "198
 elif year in ["1980" , "1981", "1982" , "1983" , "1984" , "1985" , "1986" , "1987" , "1988" , "1989"] and month in [ "january" , "January" , "february" , "February" , "march" , "March"] :
     print("You are a winter baby of the eighties")
 
+elif year in range(1000, 1980) and month in ["march" , "March" , "april" , "April" , "may" , "May" ] :
+    print("You are a spring baby of the stone age")
+elif year in range(1000, 1980) and month in ["june" , "June", "july" , "July" , "august" , "August" , "september" , "September"] :
+    print("You are a summer baby of the stone age")
+elif year in range(1000, 1980) and month in ["october" , "October" , "november" , "November" , "december" , "December"] :
+    print("You are a fall baby of the stone age")
+elif year in range(1000, 1980) and month in [ "january" , "January" , "february" , "February" , "march" , "March"] :
+    print("You are a winter baby of the stone age")
 
-
-    
-    
-    
-else:
-    
-    
-    
-    print("" + name + ", hope your next birthday is the best birthday ever!")
 
 
 

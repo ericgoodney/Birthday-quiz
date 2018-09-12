@@ -31,29 +31,15 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
-
 name = str(input("Hello, what is your name? "))
 month = str(input("Hi " + name + ", what was the name of the month you were born in? "))
 year = str(input("And what year were you born in, " + name + "? "))
 day = str(input("And the day? "))
 
-a = ["january" , "January"]
-b = ["february" , "February"]
-c = ["march" , "March"]
-d = ["april" , "April"]
-e = ["may" , "May"]
-f = ["june"  , "June"]
-g = ["july" , "July"]
-h = ["august" , "August"]
-i = ["september" , "September"]
-j = ["october" , "October"]
-k = ["november" , "November"]
-l = ["december" , "December"]
-
-
-
-
-
+spring = ["march" , "March" , "april" , "April" , "may" , "May" ]
+summer =["june" , "June", "july" , "July" , "august" , "August" , "september" , "September"]
+fall = ["october" , "October" , "november" , "November" , "december" , "December"]
+winter = [ "january" , "January" , "february" , "February" , "march" , "March"]
 
 if month in ["october" , "October"] and day == "31" :
     print("You were born on Halloween!")
@@ -84,6 +70,12 @@ elif year in ["1980" , "1981", "1982" , "1983" , "1984" , "1985" , "1986" , "198
     print("You are a fall baby of the eighties")
 elif year in ["1980" , "1981", "1982" , "1983" , "1984" , "1985" , "1986" , "1987" , "1988" , "1989"] and month in [ "january" , "January" , "february" , "February" , "march" , "March"] :
     print("You are a winter baby of the eighties")
+
+
+
+    
+    
+    
 else:
     
     

@@ -71,13 +71,13 @@ elif year in ["1980" , "1981", "1982" , "1983" , "1984" , "1985" , "1986" , "198
 elif year in ["1980" , "1981", "1982" , "1983" , "1984" , "1985" , "1986" , "1987" , "1988" , "1989"] and month in [ "january" , "January" , "february" , "February" , "march" , "March"] :
     print("You are a winter baby of the eighties")
 
-elif month in ["march" , "March" , "april" , "April" , "may" , "May" ] and year in range(0,1980):
+elif month in ["march" , "March" , "april" , "April" , "may" , "May" ] and int(year) in range(0,1980):
     print("You are a spring baby of the stone age")
-elif month in ["june" , "June", "july" , "July" , "august" , "August" , "september" , "September"] and year in range(0,1980):
+elif month in ["june" , "June", "july" , "July" , "august" , "August" , "september" , "September"] and int(year) in range(0,1980):
     print("You are a summer baby of the stone age")
-elif month in ["october" , "October" , "november" , "November" , "december" , "December"] and year in range(0,1980) :
+elif month in ["october" , "October" , "november" , "November" , "december" , "December"] and int(year) in range(0,1980):
     print("You are a fall baby of the stone age")
-elif month in [ "january" , "January" , "february" , "February" , "march" , "March"] year in range(0,1980) :
+elif month in [ "january" , "January" , "february" , "February" , "march" , "March"] and int(year) in range(0,1980):
     print("You are a winter baby of the stone age")
 
 

@@ -77,7 +77,7 @@ elif year in range(1000, 1980) and month in ["june" , "June", "july" , "July" , 
     print("You are a summer baby of the stone age")
 elif year in range(1000, 1980) and month in ["october" , "October" , "november" , "November" , "december" , "December"] :
     print("You are a fall baby of the stone age")
-elif year in range(1000, 1980) and month in [ "january" , "January" , "february" , "February" , "march" , "March"] :
+elif year in range([1000], 1980,[1]) and month in [ "january" , "January" , "february" , "February" , "march" , "March"] :
     print("You are a winter baby of the stone age")
 
 

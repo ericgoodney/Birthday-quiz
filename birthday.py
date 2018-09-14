@@ -53,7 +53,8 @@ if month in ["october" , "October"] and day == "31" :
     print("You were born on Halloween!")
     
 elif month == str(todaymonth) and day ==str(todaydate):
-    print("Happy Birthday")
+    print("Happy birthday!")
+    
     
 elif year in ["2000" , "2001" , "2002" , "2003" , "2004" , "2005" , "2006" , "2007" , "2008" , "2009" , "2010" , "2011" , "2012" , "2013" , "2014" , "2015" , "2016" , "2017" , "2018", "2019"] and month in ["march" , "March" , "april" , "April" , "may" , "May" ] : 
     print("You are a spring baby of the two thousands!")
@@ -83,13 +84,13 @@ elif year in ["1980" , "1981", "1982" , "1983" , "1984" , "1985" , "1986" , "198
     print("You are a winter baby of the eighties")
 
 elif month in ["march" , "March" , "april" , "April" , "may" , "May" ] and int(year) in range(0,1980):
-    print("You are a spring baby of the stone age")
+    print("You are a spring baby of the Stone Age")
 elif month in ["june" , "June", "july" , "July" , "august" , "August" , "september" , "September"] and int(year) in range(0,1980):
-    print("You are a summer baby of the stone age")
+    print("You are a summer baby of the Stone Age")
 elif month in ["october" , "October" , "november" , "November" , "december" , "December"] and int(year) in range(0,1980):
-    print("You are a fall baby of the stone age")
+    print("You are a fall baby of the Stone Age")
 elif month in [ "january" , "January" , "february" , "February" , "march" , "March"] and int(year) in range(0,1980):
-    print("You are a winter baby of the stone age")
+    print("You are a winter baby of the Stone Age")
     
 
 

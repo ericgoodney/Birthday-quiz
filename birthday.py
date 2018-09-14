@@ -52,7 +52,7 @@ fall = ["october" , "October" , "november" , "November" , "december" , "December
 winter = [ "january" , "January" , "february" , "February" , "march" , "March"]
 
 if month in ["october" , "October"] and day == "31" :
-    print(name + ", You were born on Halloween!")
+    print(" You were born on Halloween!")
     
    
     

@@ -31,6 +31,14 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+from datetime import datetime
+from calendar import month_name
+todaymonth = datetime.today().month
+todaydate = datetime.today().day
+
+month = month_name[todaymonth]
+
+
 name = str(input("Hello, what is your name? "))
 month = str(input("Hi " + name + ", what was the name of the month you were born in? "))
 year = str(input("And what year were you born in, " + name + "? "))
@@ -43,6 +51,9 @@ winter = [ "january" , "January" , "february" , "February" , "march" , "March"]
 
 if month in ["october" , "October"] and day == "31" :
     print("You were born on Halloween!")
+    
+elif month == str(todaymonth) and day ==str(todaydate):
+    print("Happy Birthday")
     
 elif year in ["2000" , "2001" , "2002" , "2003" , "2004" , "2005" , "2006" , "2007" , "2008" , "2009" , "2010" , "2011" , "2012" , "2013" , "2014" , "2015" , "2016" , "2017" , "2018", "2019"] and month in ["march" , "March" , "april" , "April" , "may" , "May" ] : 
     print("You are a spring baby of the two thousands!")
@@ -79,8 +90,7 @@ elif month in ["october" , "October" , "november" , "November" , "december" , "D
     print("You are a fall baby of the stone age")
 elif month in [ "january" , "January" , "february" , "February" , "march" , "March"] and int(year) in range(0,1980):
     print("You are a winter baby of the stone age")
-
-
+    
 
 
 
